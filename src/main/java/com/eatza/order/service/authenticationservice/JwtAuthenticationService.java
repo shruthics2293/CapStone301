@@ -31,7 +31,6 @@ public class JwtAuthenticationService {
 
 	public String authenticateUser(UserDto user) throws UnauthorizedException {
 
-		
 
 		if(!(user.getUsername().equals(username))) {
 			logger.debug("Username is invalid");
